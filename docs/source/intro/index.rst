@@ -79,16 +79,15 @@ Contact et communication
 =======================================
 
 
-Les communications se feront par WhatsApp et par mail.
+Les communications se feront par mail.
 
-:Téléphone: 97999277
 :Email: `John Aoga <johnaoga@gmail.com>`_
 
 
 Cours Open-Source
 =======================================
 
-Les sources de ce site web sont open-source et disponibles sur `GitHub <https://github.com/cours-uac-aoga-benin/>`_.
+Les sources de ce site web sont open-source et disponibles sur `GitHub <https://github.com/johnaoga/gl-sdlc>`_.
 N'hésitez pas à faire des pull requests si vous voyez des erreurs ou des éléments à corriger.
 
 La licence utilisée est Creative Commons Attribution-ShareAlike 4.0 International License :
