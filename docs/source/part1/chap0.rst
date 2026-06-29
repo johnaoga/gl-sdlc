@@ -115,3 +115,21 @@ La suite du cours répond à ce « comment » : les :doc:`fondamentaux <chap1>`
 (qu'est-ce qu'un logiciel, son :doc:`cycle de vie <chap2>`, sa
 :doc:`documentation <chap3>`), puis les :doc:`méthodes de développement
 <../part2/index>` proprement dites.
+
+
+Pour aller plus loin
+====================
+
+Pour approfondir la notion de méthodologie, vous pouvez consulter cette
+`playlist vidéo sur la méthodologie
+<https://www.youtube.com/watch?v=dAUZO34xJKs&list=PLIQzeStLZINk>`_.
+
+.. raw:: html
+
+   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 800px; margin: 1rem 0;">
+     <iframe src="https://www.youtube.com/embed/dAUZO34xJKs?list=PLIQzeStLZINk"
+             style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+             title="Méthodologie — vidéo"
+             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+             allowfullscreen></iframe>
+   </div>
