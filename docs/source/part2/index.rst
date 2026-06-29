@@ -37,7 +37,6 @@ Organisation
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
 
    chap4
    chap5

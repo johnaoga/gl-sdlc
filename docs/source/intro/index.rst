@@ -56,35 +56,48 @@ de semestre.
 
 .. list-table::
    :header-rows: 1
-   :widths: 12 48 40
+   :widths: 10 55 35
+   :class: longtable
 
    * - Séance
-     - Contenu
-     - TP / Exercices / Présentations
+     - Contenu (cours · présentations · restructuration)
+     - TP / Projet
    * - Séance 1
-     - Mise en situation + introduction au cours
-     - TP0 préliminaire (énoncé)
+     - Mise en situation + **Chapitre 0** — Introduction à la méthodologie
+     - —
    * - Séance 2
-     - Présentation du TP préliminaire
-     - TP0 rendu (non noté)
+     - **Chapitre 1** (Intro à la méthodologie de dév. logiciel) + **Chapitre 2** (Cycle de vie)
+     - TP0 (préliminaire) lancé
    * - Séance 3
-     - Introduction au SDLC (Partie 1)
-     - TP1 (CDC) + TP2 (fiche technique) lancés
+     - **Chapitre 3** (Documentation : CDC & fiche technique) + description du projet + laboratoire
+     - TP0 rendu · TP1 (CDC) lancé
    * - Séance 4
-     - Laboratoire
-     - Projet lancé (constitution des groupes)
+     - **Chapitre 4** (Cascade) + **Chapitre 5** (Modèle en V)
+     - TP2 (fiche technique) lancé
    * - Séance 5
-     - Étapes du SDLC en détail + clarification des projets
-     - Laboratoire
-   * - Séances 6 à 8
-     - Méthodologies (exposés de groupe) + restructuration
-     - Exposés évalués + laboratoire
+     - Présentation **Itératif** + restructuration (**Chapitre 6**) + laboratoire / projet
+     - TP1 rendu
+   * - Séance 6
+     - Présentation **Spirale** + restructuration (**Chapitre 7**) + laboratoire / projet
+     - TP2 rendu
+   * - Séance 7
+     - Présentation **Agile / Scrum** + restructuration (**Chapitre 8**) + laboratoire / projet
+     - —
+   * - Séance 8
+     - **Simulation Scrum** (**Chapitre 8**) + laboratoire / projet
+     - —
    * - Séance 9
-     - Récapitulatif + restructuration
-     - Laboratoire
+     - Autres présentations : **Kanban, Lean, Extreme Programming, …**
+     - —
    * - Séance 10
-     - Laboratoire / suivi de projet
-     - Avancement projet
+     - Restructuration + **récapitulatif** (**Chapitre 9**) + laboratoire / projet
+     - —
+
+.. note::
+   **Deux principes rythment le semestre :** (1) à **chaque présentation** de
+   groupe correspond une **restructuration** (mise au propre du chapitre
+   concerné) ; (2) le **laboratoire / projet** se poursuit en continu **dès son
+   lancement** (Séance 3).
 
 .. note::
    Le **TP préliminaire** est une mise en situation simple : *« un client veut un

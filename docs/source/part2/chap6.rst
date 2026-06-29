@@ -22,6 +22,20 @@ client**.
 
    Le modèle itératif : on livre par petits incréments montrables au client.
 
+.. figure:: img/how-iteration-arrived.png
+   :alt: Comment l'itératif est apparu
+   :align: center
+   :width: 75%
+
+   D'où vient l'itératif : répondre aux limites des approches purement séquentielles.
+
+.. figure:: img/different-kind-of-iteration.png
+   :alt: Différents types d'itération
+   :align: center
+   :width: 75%
+
+   Différentes façons de découper en itérations.
+
 Avantages, limites et usages
 ============================
 

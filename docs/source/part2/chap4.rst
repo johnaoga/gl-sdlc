@@ -28,6 +28,13 @@ suivante :
 
    Le modèle en cascade : les phases s'enchaînent sans retour en arrière.
 
+.. figure:: img/cascade-detail.png
+   :alt: Détail du modèle en cascade
+   :align: center
+   :width: 75%
+
+   Détail des phases enchaînées dans le modèle en cascade.
+
 Avantages, limites et usages
 ============================
 

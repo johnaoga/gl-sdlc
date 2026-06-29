@@ -1,12 +1,16 @@
 .. _part1_chap1:
 
-***********************************************************************
-Chapitre 1 : Introduction à la méthodologie
-***********************************************************************
+****************************************************************************
+Chapitre 1 : Introduction à la méthodologie de développement de logiciel
+****************************************************************************
 
 *SDLC = Software Development Life Cycle* ⇒ le **cycle de vie de développement
 d'un logiciel**. Une **méthodologie** répond à la question : *comment développer
 efficacement un logiciel ?*
+
+.. note::
+   Le :doc:`chapitre 0 <chap0>` a montré *pourquoi* une méthode est nécessaire en
+   général. Ce chapitre pose les bases propres au **logiciel**.
 
 Objectifs
 =========
@@ -153,21 +157,11 @@ spécificités selon les problèmes et l'organisation du développement.
 3.1. Pourquoi suivre une méthodologie ?
 ---------------------------------------
 
-Suivre une méthodologie permet de : mieux résoudre le problème, avoir un suivi
-assidu, **gagner du temps et de l'argent**, être plus performant et garantir la
-**reproductibilité**.
-
-Trois illustrations :
-
-- **Reproductibilité.** Faire quelque chose une fois sans pouvoir le refaire ni
-  l'expliquer ⇒ inattention à la méthodologie ⇒ reproductibilité impossible et
-  maintenance difficile.
-- **Sécurité / criticité.** L'explosion d'**Ariane 5** en 1996, due à une erreur
-  logicielle : quand il y a beaucoup de choses à faire et à vérifier, l'absence
-  de méthode (étape par étape) peut conduire à des désastres.
-- **Gain économique.** Les **franchises** (McDonald's, Quick, Burger King…)
-  reposent sur une méthodologie reproduite partout — « la recette magique » — d'où
-  un gain énorme.
+Suivre une méthodologie permet de mieux résoudre le problème, d'avoir un suivi
+assidu, de **gagner du temps et de l'argent**, d'être plus performant et de
+garantir la **reproductibilité**. Les motivations générales (franchises,
+reproductibilité, apprentissage du principe, Ariane 5) sont développées au
+:doc:`chapitre 0 <chap0>`.
 
 .. admonition:: À retenir
    :class: important

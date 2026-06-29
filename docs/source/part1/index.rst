@@ -31,8 +31,8 @@ Organisation
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
 
+   chap0
    chap1
    chap2
    chap3

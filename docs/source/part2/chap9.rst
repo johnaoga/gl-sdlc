@@ -8,6 +8,13 @@ Ce chapitre synthétise les méthodologies vues précédemment. Toutes reprennen
 mêmes phases ; elles diffèrent par leur **organisation**, leur tolérance au
 **changement** et leur gestion du **risque**.
 
+.. figure:: img/cascade-vs-v.png
+   :alt: Comparaison cascade et modèle en V
+   :align: center
+   :width: 80%
+
+   De la cascade au modèle en V : anticiper la validation et les tests.
+
 Tableau comparatif synthétique
 ==============================
 

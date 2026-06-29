@@ -50,6 +50,13 @@ préparée *dès le départ* :
 
    Les niveaux de test sont planifiés dès la phase descendante.
 
+.. figure:: img/en-v.png
+   :alt: Le modèle en V — vue d'ensemble
+   :align: center
+   :width: 75%
+
+   Le « V » : à chaque niveau de conception correspond un niveau de test.
+
 Avantages, limites et usages
 ============================
 
