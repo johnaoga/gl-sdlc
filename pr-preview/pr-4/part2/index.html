@@ -1,0 +1,196 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Partie 2 | Les méthodes de développement &mdash; SDLC 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../_static/quiz.css?v=b9db772e" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=2709fde1"></script>
+      <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../_static/quiz.js?v=3a330e9a"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Chapitre 4 : Le modèle en cascade" href="chap4.html" />
+    <link rel="prev" title="Chapitre 3 : La documentation nécessaire" href="../part1/chap3.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            SDLC
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contenu du cours</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../intro/index.html">Organisation du cours</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../part1/index.html">Partie 1 | Préliminaire</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Partie 2 | Les méthodes de développement</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#vue-d-ensemble">Vue d’ensemble</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#objectifs">Objectifs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#organisation">Organisation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chap4.html">Chapitre 4 : Le modèle en cascade</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chap5.html">Chapitre 5 : Le modèle en V</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chap6.html">Chapitre 6 : Le modèle itératif</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chap7.html">Chapitre 7 : Le modèle en spirale</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chap8.html">Chapitre 8 : Agile (Scrum, Kanban)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chap9.html">Chapitre 9 : Récapitulatif comparatif</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../part3/index.html">Partie 3 | Projet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../part6/index.html">QCM - Questionnaires d’auto-évaluation</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">SDLC</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Partie 2 | Les méthodes de développement</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/part2/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="partie-2-les-methodes-de-developpement">
+<span id="part2"></span><h1>Partie 2 | Les méthodes de développement<a class="headerlink" href="#partie-2-les-methodes-de-developpement" title="Link to this heading"></a></h1>
+<section id="vue-d-ensemble">
+<h2>Vue d’ensemble<a class="headerlink" href="#vue-d-ensemble" title="Link to this heading"></a></h2>
+<p>Toutes les méthodologies reprennent les mêmes <a class="reference internal" href="../part1/chap2.html"><span class="doc">phases standard</span></a> du cycle de vie. Ce qui les distingue, c’est <strong>la manière de les
+organiser</strong> : en séquence, par itérations, avec gestion des risques, avec des
+règles agiles, …</p>
+<p>Cette partie présente les principaux modèles : <strong>Cascade</strong>, <strong>V</strong>, <strong>Itératif</strong>,
+<strong>Spirale</strong>, <strong>Agile/Scrum</strong> et <strong>Agile/Kanban</strong>, puis un <strong>récapitulatif</strong>
+comparatif. Pour chaque modèle, on précise : <em>comment ça marche</em>, ses <em>avantages</em>,
+ses <em>limites/défis</em> et <em>pour quels projets</em> il convient.</p>
+</section>
+<section id="objectifs">
+<h2>Objectifs<a class="headerlink" href="#objectifs" title="Link to this heading"></a></h2>
+<p>À l’issue de cette partie, chaque étudiant.e sera capable de :</p>
+<ul class="simple">
+<li><p>Expliquer le fonctionnement de chaque méthodologie (Cascade, V, Itératif, Spirale, Agile/Scrum, Agile/Kanban)</p></li>
+<li><p>Comparer leurs avantages, limites et contextes d’application</p></li>
+<li><p>Choisir la méthodologie adaptée au contexte d’un projet donné</p></li>
+<li><p>Présenter de manière approfondie une méthodologie (objectif des <strong>exposés</strong>)</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Les <strong>exposés</strong> (20 % de la note) consistent à présenter en profondeur une
+méthodologie assignée à votre groupe, en l’illustrant sur l’exemple
+préliminaire. Voir la <a class="reference internal" href="../part3/index.html"><span class="doc">Partie 3</span></a>.</p>
+</div>
+</section>
+<section id="organisation">
+<h2>Organisation<a class="headerlink" href="#organisation" title="Link to this heading"></a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="chap4.html">Chapitre 4 : Le modèle en cascade</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chap4.html#comment-ca-marche">Comment ça marche ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chap4.html#avantages-limites-et-usages">Avantages, limites et usages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chap4.html#exercice">Exercice</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chap5.html">Chapitre 5 : Le modèle en V</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chap5.html#comment-ca-marche">Comment ça marche ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chap5.html#avantages-limites-et-usages">Avantages, limites et usages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chap5.html#exercice">Exercice</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chap6.html">Chapitre 6 : Le modèle itératif</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chap6.html#comment-ca-marche">Comment ça marche ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chap6.html#avantages-limites-et-usages">Avantages, limites et usages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chap6.html#exercice">Exercice</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chap7.html">Chapitre 7 : Le modèle en spirale</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chap7.html#comment-ca-marche">Comment ça marche ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chap7.html#avantages-limites-et-usages">Avantages, limites et usages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chap7.html#exercice">Exercice</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chap8.html">Chapitre 8 : Agile (Scrum, Kanban)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chap8.html#agile-scrum">Agile / Scrum</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chap8.html#agile-kanban">Agile / Kanban</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chap8.html#exercice">Exercice</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chap9.html">Chapitre 9 : Récapitulatif comparatif</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chap9.html#tableau-comparatif-synthetique">Tableau comparatif synthétique</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chap9.html#pour-aller-plus-loin">Pour aller plus loin</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../part1/chap3.html" class="btn btn-neutral float-left" title="Chapitre 3 : La documentation nécessaire" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="chap4.html" class="btn btn-neutral float-right" title="Chapitre 4 : Le modèle en cascade" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2026, John Aoga.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,195 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chapitre 6 : Le modèle itératif &mdash; SDLC 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../_static/quiz.css?v=b9db772e" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=2709fde1"></script>
+      <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../_static/quiz.js?v=3a330e9a"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Chapitre 7 : Le modèle en spirale" href="chap7.html" />
+    <link rel="prev" title="Chapitre 5 : Le modèle en V" href="chap5.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            SDLC
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contenu du cours</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../intro/index.html">Organisation du cours</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../part1/index.html">Partie 1 | Préliminaire</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Partie 2 | Les méthodes de développement</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="index.html#vue-d-ensemble">Vue d’ensemble</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#objectifs">Objectifs</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html#organisation">Organisation</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="chap4.html">Chapitre 4 : Le modèle en cascade</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chap5.html">Chapitre 5 : Le modèle en V</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Chapitre 6 : Le modèle itératif</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#comment-ca-marche">Comment ça marche ?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#avantages-limites-et-usages">Avantages, limites et usages</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#exercice">Exercice</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="chap7.html">Chapitre 7 : Le modèle en spirale</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chap8.html">Chapitre 8 : Agile (Scrum, Kanban)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chap9.html">Chapitre 9 : Récapitulatif comparatif</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../part3/index.html">Partie 3 | Projet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../part6/index.html">QCM - Questionnaires d’auto-évaluation</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">SDLC</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">Partie 2 | Les méthodes de développement</a></li>
+      <li class="breadcrumb-item active">Chapitre 6 : Le modèle itératif</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/part2/chap6.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="chapitre-6-le-modele-iteratif">
+<span id="part2-chap6"></span><h1>Chapitre 6 : Le modèle itératif<a class="headerlink" href="#chapitre-6-le-modele-iteratif" title="Link to this heading"></a></h1>
+<p>Le modèle <strong>itératif</strong> veut mettre le <strong>client au cœur</strong> du développement, ce qui
+change fondamentalement la manière de développer.</p>
+<section id="comment-ca-marche">
+<h2>Comment ça marche ?<a class="headerlink" href="#comment-ca-marche" title="Link to this heading"></a></h2>
+<p>La réalisation de l’outil est subdivisée en plusieurs <em>chunks</em> — <strong>itérations</strong>,
+prototypes, cycles. Chaque itération est un <strong>équilibre entre le back-end et le
+front-end</strong>, dans l’optique de <strong>toujours avoir quelque chose à montrer au
+client</strong>.</p>
+<figure class="align-center" id="id1">
+<a class="reference internal image-reference" href="../_images/iteratif.png"><img alt="Le modèle itératif" src="../_images/iteratif.png" style="width: 75%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Le modèle itératif : on livre par petits incréments montrables au client.</span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id2">
+<a class="reference internal image-reference" href="../_images/how-iteration-arrived.png"><img alt="Comment l'itératif est apparu" src="../_images/how-iteration-arrived.png" style="width: 75%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">D’où vient l’itératif : répondre aux limites des approches purement séquentielles.</span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id3">
+<a class="reference internal image-reference" href="../_images/different-kind-of-iteration.png"><img alt="Différents types d'itération" src="../_images/different-kind-of-iteration.png" style="width: 75%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Différentes façons de découper en itérations.</span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="avantages-limites-et-usages">
+<h2>Avantages, limites et usages<a class="headerlink" href="#avantages-limites-et-usages" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 33.0%" />
+<col style="width: 34.0%" />
+<col style="width: 33.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Avantages</p></th>
+<th class="head"><p>Limites / Défis</p></th>
+<th class="head"><p>Bon pour</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>On garde le <strong>client dans la boucle</strong> ; méthodologie très sûre</p></td>
+<td><p>Le logiciel peut finir <strong>loin</strong> de là où il a commencé ⇒ « le client vous fait perdre » (changements répétés) ; risque de perdre du temps et de l’argent sur une même itération</p></td>
+<td><p><strong>Tout projet</strong> (très utilisé) ; projets <em>découpables</em> ; modules d’un gros projet</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p><strong>Défi</strong> : maîtriser les changements et débordements du client ; gérer la logistique</p></td>
+<td><p>Quand garder le client dans la boucle est <strong>critique</strong> (ex. logiciels de gestion, ERP)</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="exercice">
+<h2>Exercice<a class="headerlink" href="#exercice" title="Link to this heading"></a></h2>
+<p>Découpez le préliminaire en <strong>3 itérations</strong>. Pour chacune, indiquez ce que vous
+montreriez au client à la fin.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="chap5.html" class="btn btn-neutral float-left" title="Chapitre 5 : Le modèle en V" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="chap7.html" class="btn btn-neutral float-right" title="Chapitre 7 : Le modèle en spirale" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2026, John Aoga.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
