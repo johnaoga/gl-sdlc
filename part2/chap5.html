@@ -1,0 +1,227 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chapitre 5 : Le modèle en V &mdash; SDLC 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../_static/quiz.css?v=b9db772e" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=2709fde1"></script>
+      <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../_static/quiz.js?v=3a330e9a"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Chapitre 6 : Le modèle itératif" href="chap6.html" />
+    <link rel="prev" title="Chapitre 4 : Le modèle en cascade" href="chap4.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            SDLC
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contenu du cours</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../intro/index.html">Organisation du cours</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../part1/index.html">Partie 1 | Préliminaire</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Partie 2 | Les méthodes de développement</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="index.html#vue-d-ensemble">Vue d’ensemble</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#objectifs">Objectifs</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html#organisation">Organisation</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="chap4.html">Chapitre 4 : Le modèle en cascade</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Chapitre 5 : Le modèle en V</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#comment-ca-marche">Comment ça marche ?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#avantages-limites-et-usages">Avantages, limites et usages</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#exercice">Exercice</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="chap6.html">Chapitre 6 : Le modèle itératif</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chap7.html">Chapitre 7 : Le modèle en spirale</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chap8.html">Chapitre 8 : Agile (Scrum, Kanban)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chap9.html">Chapitre 9 : Récapitulatif comparatif</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../part3/index.html">Partie 3 | Projet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../part6/index.html">QCM - Questionnaires d’auto-évaluation</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">SDLC</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">Partie 2 | Les méthodes de développement</a></li>
+      <li class="breadcrumb-item active">Chapitre 5 : Le modèle en V</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/part2/chap5.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="chapitre-5-le-modele-en-v">
+<span id="part2-chap5"></span><h1>Chapitre 5 : Le modèle en V<a class="headerlink" href="#chapitre-5-le-modele-en-v" title="Link to this heading"></a></h1>
+<p>Le modèle en <strong>V</strong> se lit en deux parties, comme son nom l’indique : une <strong>phase
+descendante</strong> (jusqu’à l’implémentation) et une <strong>phase ascendante</strong> (jusqu’au
+déploiement). Il vient corriger le gros défaut de la cascade : ne pas savoir
+<strong>anticiper la validation</strong>.</p>
+<section id="comment-ca-marche">
+<h2>Comment ça marche ?<a class="headerlink" href="#comment-ca-marche" title="Link to this heading"></a></h2>
+<p>À chaque phase <strong>descendante</strong> correspond une phase <strong>ascendante</strong> de test/validation
+préparée <em>dès le départ</em> :</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 30.0%" />
+<col style="width: 20.0%" />
+<col style="width: 25.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Descendante</p></th>
+<th class="head"><p>Détail</p></th>
+<th class="head"><p>Lien</p></th>
+<th class="head"><p>Ascendante</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Spécification</p></td>
+<td><p>Identifier les spécifications (fonctionnelles et non fonctionnelles)</p></td>
+<td><p><em>Comment</em> valider l’outil avec le <strong>client</strong></p></td>
+<td><p>Validation (exécution)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Conception / modélisation</p></td>
+<td><p>Conception générale, puis détaillée</p></td>
+<td><p>Quels tests dois-je faire ? Élaborer les tests et protocoles ⇒ <strong>écrire le test</strong></p></td>
+<td><p>Tests (exécution)</p></td>
+</tr>
+<tr class="row-even"><td><p>Implémentation</p></td>
+<td><p>Écrire le code</p></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<figure class="align-center" id="id1">
+<a class="reference internal image-reference" href="../_images/modele-v.png"><img alt="Le modèle en V" src="../_images/modele-v.png" style="width: 75%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Le modèle en V : à chaque phase de conception correspond une phase de test.</span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id2">
+<a class="reference internal image-reference" href="../_images/modele-v-tests.png"><img alt="Niveaux de test dans le modèle en V" src="../_images/modele-v-tests.png" style="width: 75%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Les niveaux de test sont planifiés dès la phase descendante.</span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id3">
+<a class="reference internal image-reference" href="../_images/en-v.png"><img alt="Le modèle en V — vue d'ensemble" src="../_images/en-v.png" style="width: 75%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Le « V » : à chaque niveau de conception correspond un niveau de test.</span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="avantages-limites-et-usages">
+<h2>Avantages, limites et usages<a class="headerlink" href="#avantages-limites-et-usages" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 33.0%" />
+<col style="width: 34.0%" />
+<col style="width: 33.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Avantages</p></th>
+<th class="head"><p>Limites / Défis</p></th>
+<th class="head"><p>Bon pour</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>On a l’avis du client <strong>en début</strong> de développement ; très efficace pour <strong>éviter les bugs</strong></p></td>
+<td><p>Encore <strong>risqué</strong> : on peut développer un outil qui ne correspond plus au besoin</p></td>
+<td><p><strong>Tout projet</strong> (le modèle le plus utilisé), notamment de taille <strong>moyenne</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p>Moyennement facile à mettre en œuvre</p></td>
+<td><p><strong>Défi</strong> : réunir <strong>tous les éléments de décision avec le client</strong> au moment de la spécification</p></td>
+<td><p>Quand on veut un logiciel <strong>bien testé</strong> ; specs claires et livraisons critiques (e-commerce, embarqué temps réel)</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="exercice">
+<h2>Exercice<a class="headerlink" href="#exercice" title="Link to this heading"></a></h2>
+<p>Pour le préliminaire, listez trois tests de <strong>validation</strong> que vous écririez <em>dès la
+phase de spécification</em>, avant tout code.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="chap4.html" class="btn btn-neutral float-left" title="Chapitre 4 : Le modèle en cascade" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="chap6.html" class="btn btn-neutral float-right" title="Chapitre 6 : Le modèle itératif" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2026, John Aoga.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
