@@ -60,6 +60,22 @@ jobs:
           publish_dir: docs/_build/html
           keep_files: true
 
+      - name: Prepare gh-pages root assets
+        if: github.event_name == 'pull_request'
+        run: |
+          mkdir -p /tmp/gh-pages-root
+          touch /tmp/gh-pages-root/.nojekyll
+
+      - name: Ensure .nojekyll at gh-pages root
+        if: github.event_name == 'pull_request'
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: /tmp/gh-pages-root
+          clean: false
+          git-config-name: github-actions[bot]
+          git-config-email: github-actions[bot]@users.noreply.github.com
+
       - name: Deploy PR preview
         if: github.event_name == 'pull_request'
         uses: rossjrw/pr-preview-action@v1
