@@ -8,11 +8,18 @@ Course notes for Software Development Life Cycle at IFRI/UAC Benin (in French).
 
 ## Pull Request Preview
 
-For pull requests, the `docs.yml` workflow builds the documentation and uploads it as an artifact.
+Every pull request automatically gets a live preview deployed to GitHub Pages.
+The `docs.yml` workflow posts a comment on the PR with a direct link once the build completes.
 
-1. Open the PR's **Actions** run for `Build and Deploy Documentation`
-2. Download the `docs-preview-pr-<number>` artifact
-3. Open `index.html` from the extracted artifact to review the rendered site before merge
+Preview URL pattern:
+```
+https://johnaoga.github.io/gl-sdlc/pr-preview/pr-<number>/
+```
+
+The preview is removed automatically when the PR is closed or merged.
+
+> **One-time setup** (repository maintainer): GitHub Pages must be configured to deploy from the `gh-pages` branch (root).  
+> Go to **Settings → Pages → Source** and select **Deploy from a branch → gh-pages / root**.
 
 ## Local Development
 
