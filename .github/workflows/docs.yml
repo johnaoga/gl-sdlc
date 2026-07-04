@@ -22,7 +22,7 @@ permissions:
 
 jobs:
   build:
-    if: github.event.action != 'closed'
+    if: github.event_name != 'pull_request' || github.event.action != 'closed'
     runs-on: ubuntu-latest
     concurrency:
       group: >-
@@ -78,5 +78,7 @@ jobs:
       - name: Remove PR preview
         uses: rossjrw/pr-preview-action@v1
         with:
+          # source-dir is not used by the remove action; it only deletes
+          # the pr-preview/pr-{N}/ subdirectory from the gh-pages branch.
           source-dir: .
           action: remove
