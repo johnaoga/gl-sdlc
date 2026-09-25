@@ -4,6 +4,9 @@
 Organisation du cours
 *********************
 
+.. important::
+   Si vous suivez ce cours actuellement, vous devez signer la charte sur la politique d'utilisation de l'IA `via ce formulaire <https://forms.gle/TtNLyc4pNSYaANTX9>`_.
+
 L'objectif de ce cours est de **concevoir et gérer un projet informatique** en
 appliquant les méthodologies de développement appropriées, en suivant une
 démarche complète : analyse des besoins, rédaction des documents (cahier des
